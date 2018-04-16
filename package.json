@@ -4,7 +4,9 @@
   "description": "My Webpack 4 starter",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "prod": "webpack --mode production"
   },
   "author": "Anjo A Tadena",
   "license": "ISC",
