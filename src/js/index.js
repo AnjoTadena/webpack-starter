@@ -1,7 +1,9 @@
+import Message from './modules/Message';
+
 console.log('Webpack 4 is running without config file');
 
 const app = (a, b) => {
    return a + b;
 }
 
-alert(app(4,5));
+Message.say('Hi! from message module');
